@@ -1,0 +1,39 @@
+﻿Product Proposal: Bulk User Deactivation
+
+Problem
+
+Admins managing large accounts sometimes need to deactivate many users at once.
+
+Today, users are deactivated one at a time from the user management page.
+
+This becomes repetitive when an admin needs to deactivate a large number of users.
+
+Proposed solution
+
+Add a bulk deactivation action to the existing user management page.
+
+Requirements
+
+- Admin can select multiple users.
+- Admin can click "Deactivate users".
+- Selected users are deactivated.
+- The action should reuse the existing single-user deactivation flow where possible.
+
+Scope
+
+Included:
+- multi-select users;
+- bulk deactivation action.
+
+Not included:
+- user deletion;
+- bulk reactivation;
+- scheduled deactivation.
+
+Open questions
+
+- None currently.
+
+Success
+
+Reduce the effort required to deactivate multiple users.

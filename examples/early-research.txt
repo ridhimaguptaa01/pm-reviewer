@@ -1,0 +1,32 @@
+﻿Early Research: Team Dashboard Filters
+
+Purpose
+
+We are exploring whether operations managers have a recurring problem with rebuilding the same dashboard filters.
+
+Research so far
+
+We spoke with 5 operations managers.
+
+- 3 said they recreate the same filter combination several times each week.
+- 1 said they usually start from the same filters but adjust them depending on the task.
+- 1 said they rarely reuse the same filters and does not see this as a meaningful problem.
+
+Current observations
+
+Users who repeatedly monitor the same subset of accounts appear to experience the most friction.
+
+The evidence is mixed, so we do not yet know whether this is a broad need or limited to a specific workflow.
+
+Current conclusion
+
+There is enough signal to continue discovery, but not enough evidence to define a solution.
+
+Next step
+
+Interview 5 more operations managers, particularly users who monitor fixed groups of accounts, and understand:
+
+- how frequently they rebuild filters;
+- whether their filter combinations remain stable;
+- how much time or frustration this creates;
+- whether existing workarounds are sufficient.

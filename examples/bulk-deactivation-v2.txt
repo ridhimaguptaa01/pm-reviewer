@@ -1,0 +1,59 @@
+﻿Product Proposal: Bulk User Deactivation
+
+Problem
+
+Admins managing large accounts sometimes need to deactivate many users during offboarding, account cleanup, or organizational changes.
+
+Today, users are deactivated one at a time from the user management page.
+
+For admins handling dozens of users, this creates repetitive work and increases the chance of missing someone during cleanup.
+
+Proposed solution
+
+Add a bulk deactivation action to the existing user management page.
+
+Requirements
+
+- Admin can select multiple active users.
+- Admin can click "Deactivate users".
+- Before execution, show a confirmation dialog listing:
+  - number of selected users;
+  - selected user names;
+  - confirmation that these accounts will be deactivated.
+- The admin can cancel or confirm.
+- Bulk deactivation follows the same permission rules as single-user deactivation.
+- Already inactive users cannot be selected.
+
+Partial failures
+
+The action will use best-effort processing.
+
+If some users cannot be deactivated:
+- successful deactivations remain completed;
+- failed users remain active;
+- the result screen shows which users failed and the reason when available.
+
+Scope
+
+Included:
+- multi-select users;
+- bulk deactivation;
+- confirmation before execution;
+- partial-failure reporting.
+
+Not included:
+- user deletion;
+- bulk reactivation;
+- scheduled deactivation.
+
+Open question
+
+The maximum number of users that can be deactivated in one action still needs Engineering feasibility input.
+
+Success
+
+Primary signal:
+- reduction in time required to complete multi-user deactivation tasks.
+
+Secondary signal:
+- adoption of bulk deactivation compared with repeated single-user deactivation.
