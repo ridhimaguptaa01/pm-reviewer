@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Local application data
+reviews.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Claude / MCP / local AI configuration
+.claude/
+.mcp.json
+mcp.json
+
+# Private documents and uploads
+uploads/
+private/
+*.docx
+*.pdf
+*.xlsx
+
+# Backups / local working copies
+backup*/
+release-mvp*/
+*_backup.py
+*_before_*.py
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime outputs
+eval_results.json
+*.log
