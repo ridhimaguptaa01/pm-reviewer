@@ -62,6 +62,32 @@ PM Reviewer instead reviews work based on what it is trying to accomplish and ho
 
 - Identifies new issues introduced in later versions
 
+## Product walkthrough
+
+### 1. Start a managerial review
+
+Upload the product work to review. Supporting material and review context are optional.
+
+![New review](./assets/01-new-review.png)
+
+### 2. First-pass review
+
+The reviewer interprets the work and surfaces only material issues. Findings are prioritized by what needs revision versus what can wait.
+
+![First-pass review](./assets/02-first-pass-review.png)
+
+### 3. Submit a revised version
+
+A revised document is added to the same review thread rather than starting a new review.
+
+![Upload revised version](./assets/03-upload-revision.png)
+
+### 4. Track what changed
+
+The reviewer compares Version 2 against the previous version and prior feedback, showing what was resolved, partially resolved, remains open, or is newly introduced.
+
+![Revision review](./assets/04-revision-review.png)
+
 ## Review framework
 
 The reviewer adapts five dimensions depending on the work:
