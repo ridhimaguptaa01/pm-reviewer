@@ -518,7 +518,7 @@ def render_review_thread_header(
     """Render a compact two-line header for a review thread."""
 
     display_title = _derive_display_title(root["prd_filename"])
-    raw_name = root["prd_filename"]
+    raw_name = latest["prd_filename"]
     sep = ' <span style="color:#d1d5db;">&middot;</span> '
 
     meta_parts = [
