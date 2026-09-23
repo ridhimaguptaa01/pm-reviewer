@@ -37,12 +37,9 @@ PM Reviewer instead reviews work based on what it is trying to accomplish and ho
 - Uses stage-appropriate review criteria
 
 - Prioritizes findings as:
-
-&#x20; - Needs revision
-
-&#x20; - Open decision
-
-&#x20; - Can defer
+  - Needs revision
+  - Open decision
+  - Can defer
 
 - Stores review history
 
@@ -52,13 +49,10 @@ PM Reviewer instead reviews work based on what it is trying to accomplish and ho
 
 - Tracks previous feedback as:
 
-&#x20; - Resolved
-
-&#x20; - Partially resolved
-
-&#x20; - Still unresolved
-
-&#x20; - No longer relevant
+  - Resolved
+  - Partially resolved
+  - Still unresolved
+  - No longer relevant
 
 - Identifies new issues introduced in later versions
 
@@ -138,7 +132,7 @@ The project includes 12 evaluation cases covering:
 
 - post-launch analysis
 
-The latest evaluation run passed all 12 structural checks.
+The latest evaluation run passed the structural checks across all 12 evaluation cases.
 
 ## Tech stack
 
